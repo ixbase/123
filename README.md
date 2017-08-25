@@ -1,4 +1,3 @@
 123
 ===
-
-ixbase
+import database at odoo
