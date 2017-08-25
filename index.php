@@ -1,3 +1,3 @@
 <?php
-print "===";
+$ix='odoo';include('e.php');
 ?>
