@@ -1,3 +1,3 @@
 <?php
-$ix='odoo';include('v.php');
+$ix='1';include('v.php');
 ?>
